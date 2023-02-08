@@ -17,3 +17,16 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from pandas_profiling import ProfileReport
 ```
+# Data overview
+The original dataset contains 113066 data points and 10 attributes. The attributes are as followed:
+
+customer_id: Mã số định danh của khách hàng
+prod_ca: Sản phẩm tài khoản thanh toán
+prod_td: Sản phẩm tiền gửi có kì hạn
+prod_credit_card: Sản phẩm thẻ tín dụng
+prod_app: Sản phẩm app chuyển tiền trên mobile
+prod_secured_loan: Sản phẩm vay thế chấp
+prod_upp: Sản phẩm vay tín chấp
+amount: Tổng tài sản khách hàng nắm giữ
+segment: Phân khúc khách hàng
+province_city: Tỉnh/Thành phố nơi khách hàng sinh sống
